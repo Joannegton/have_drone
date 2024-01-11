@@ -1,0 +1,41 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+  
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: yellow;
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    position: relative;
+  }
+  .modal-content div{
+    position: relative;
+    top: 40%;
+    transform: translate(0, -50%);
+    
+  }
+  .close{
+    width: 30px;
+    height: 30px;
+    float: right;
+  }
+
+
+
+  
+  /* Adicione outros estilos conforme necessário */
+  
