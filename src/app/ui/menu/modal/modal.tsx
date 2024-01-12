@@ -11,16 +11,13 @@ const Modal: React.FC<ModalProps> = ({ onClose }) => {
   return (
     <div className="modal-overlay">
       <div className="modal-content">
-      <XMarkIcon className="close" onClick={onClose}/>
+        <XMarkIcon className="close" onClick={onClose}/>
+        <div>
+          <h3>Entre ou Cadastre</h3>
+          <Link href={'/login/clients'}><button className='button_login'>Cliente</button></Link>
 
-      <div>
-        <h3>Entre ou Cadastre</h3>
-        <button className='button_login'><Link href={'/login/clients'}>Cliente</Link></button>
-        <button className='button_login'><Link href={'/login/piloto'}>Piloto</Link></button>
-      </div>
-
-        
-        
+          <Link href={'/login/piloto'}><button className='button_login'>Piloto</button></Link>
+        </div>
       </div>
     </div>
   );

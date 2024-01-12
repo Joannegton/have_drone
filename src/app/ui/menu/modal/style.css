@@ -4,38 +4,38 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.664);
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
-  
+    
   }
   
   .modal-content {
-    background: white;
     padding: 10px;
     border-radius: 8px;
-    background-color: yellow;
-    height: 300px;
+    background-color: white;
+    height: 360px;
     width: 250px;
     text-align: center;
-    position: relative;
+    position: absolute
   }
   .modal-content div{
     position: relative;
     top: 40%;
     transform: translate(0, -50%);
-    
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
   }
   .close{
     width: 30px;
     height: 30px;
     float: right;
+    cursor: pointer;
   }
 
-
-
-  
-  /* Adicione outros estilos conforme necessário */
+  @media only screen and (min-width: 768px) {
+    
+  }
   

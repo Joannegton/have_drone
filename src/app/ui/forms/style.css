@@ -1,0 +1,36 @@
+form{
+    background-color: aliceblue;
+    text-align: center;
+    width: 500px;
+}
+
+h1{
+    font-style: bolder;
+    text-align: center;
+    margin: 0;
+}
+
+.containerData{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;    
+}
+
+input, select{
+    margin: 3px;
+}
+
+button{
+    width: 80px;
+    margin: 3px auto;
+    cursor: pointer;
+    background-color: #1D9CA3;
+    font-weight: bolder;
+}
+
+p{
+    margin: 0;
+}
+
+
